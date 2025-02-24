@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Untuk Kamu 🌹</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <audio id="background-music" autoplay>
+      <source src="Audio/about you.mp3" type="audio/mpeg">
+    </audio>
+    <h1 id="judul">Masukkan Namamu...</h1>
+    <input type="text" id="input-nama" placeholder="Nama kamu..." />
+    <button id="btn-mulai">Mulai</button>
+    <div id="pesan-romantis" class="hidden">
+      <h2>Hai, <span id="nama-kamu"></span>! 🌹</h2>
+      <p>Ada sesuatu yang ingin aku sampaikan...</p>
+      <ul id="list-romantis">
+        <li>Kamu itu <span class="highlight">cantik</span> kayak bunga di taman 🌸</li>
+        <li><span class="highlight">Cerdas</span> kayak bintang di langit malam ✨</li>
+        <li>Dan <span class="highlight">berarti</span> banget buat aku 💖</li>
+      </ul>
+      <button id="btn-romantis">Klik Aku Kalau Kamu Penasaran!</button>
+      <p id="pesan-rahasia" class="hidden">Aku bersyukur bisa mengenal kamu. Terima kasih sudah menjadi bagian dari hariku! 😊</p>
+    </div>
+  </div>
+  <script src="js.js"></script>
+</body>
+</html>
