@@ -1,1 +1,1 @@
-# khusus-kamu
+# Untuk seseorang yang kucintai
